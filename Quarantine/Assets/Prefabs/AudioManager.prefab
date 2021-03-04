@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4849462460038456846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6372518266696461357}
+  - component: {fileID: 2183045874498659897}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6372518266696461357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4849462460038456846}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2183045874498659897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4849462460038456846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b05097f9d2b351b4c9d25dea6092587a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerDeath
+    clip: {fileID: 8300000, guid: 076622d4b640c1945952ff3dd2a5987b, type: 3}
+    volume: 0.78
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ButtonSelect
+    clip: {fileID: 8300000, guid: d9eb91541880a6049a3fc7864b1d08a0, type: 3}
+    volume: 0.78
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossDeath
+    clip: {fileID: 8300000, guid: 2f7ec75caa891d741a6ec908fca472ca, type: 3}
+    volume: 0.78
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 38cd62753fb72254dbcd0b76350be414, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LazerCharge
+    clip: {fileID: 8300000, guid: c5b5fb4b26600fd49853b260846621d1, type: 3}
+    volume: 0.78
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LazerFire
+    clip: {fileID: 8300000, guid: e22643cfd61942a4dbc7289f110c837e, type: 3}
+    volume: 0.78
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MissileFire
+    clip: {fileID: 8300000, guid: 05a08fbc7434ec34eb9f0d47879c7df6, type: 3}
+    volume: 0.78
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Coin
+    clip: {fileID: 8300000, guid: c4bc769b8fd589443ade938a342c6ebb, type: 3}
+    volume: 0.78
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PowerUp
+    clip: {fileID: 8300000, guid: 3d65362d268ed4e439a31b8d35fab768, type: 3}
+    volume: 0.78
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Slam
+    clip: {fileID: 8300000, guid: 97138cf46f9ea5346810b9272e8da67a, type: 3}
+    volume: 0.78
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: HitHurt
+    clip: {fileID: 8300000, guid: 82298b47ee873d849ac600d41e8b0dec, type: 3}
+    volume: 0.78
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CheckPoint
+    clip: {fileID: 8300000, guid: b6406603dd428494fb96ecb230acc76d, type: 3}
+    volume: 0.78
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Bounce
+    clip: {fileID: 8300000, guid: 60da2204603a1694eb2d4dea8447a964, type: 3}
+    volume: 0.78
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LevelTheme
+    clip: {fileID: 8300000, guid: 82058f4a826eb844c9cc6eacb00eb8b9, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: BossTheme
+    clip: {fileID: 8300000, guid: 298333cce1ff50d448108562e6e2663f, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
